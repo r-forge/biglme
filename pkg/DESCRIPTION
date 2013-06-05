@@ -1,0 +1,21 @@
+Package: biglme
+Type: Package
+Title: Procedure for doing inference of one-way Linear Mixed Effects models.
+Version: 1.0
+Date: 2013-05-26
+Author: Oyvind Bleka <Oyvind.bleka@fhi.no>
+Maintainer: Oyvind Bleka <Oyvind.bleka@fhi.no>
+Description: This package aims to make inference of one-way Linear Mixed
+    Effects models where the user may specify any non-singular covariance
+    structure to the random effects. The procedure also supports big data.
+License: GPL(>=2)
+Imports:
+    geoR,MASS
+Suggests:
+    geoR,MASS
+Collate:
+    'genlmeCI.R'
+    'genlme.R'
+    'genlmesim.R'
+    'precalc_genlme.R'
+    'simplelme.R'
